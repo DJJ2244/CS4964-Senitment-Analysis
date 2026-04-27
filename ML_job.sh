@@ -7,7 +7,7 @@
 #SBATCH --qos=notchpeak-gpu
 #SBATCH --partition=notchpeak-gpu
 #SBATCH --account=notchpeak-gpu
-#SBATCH --gres=gpu:a100:2
+#SBATCH --gres=gpu:3090:2
 #SBATCH --output=logs/slurm/%j.out
 #SBATCH --error=logs/slurm/%j.err
 
