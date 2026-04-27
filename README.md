@@ -15,9 +15,9 @@ https://business.yelp.com/data/resources/open-dataset/
 This link contains the IMDB movie review data. Download "part-01.json".
 https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset
 
-From here, ssh into chpc by running the command `ssh <uid>@notchpeak2.chpc.utah.edu`.
+From here through terminal, ssh into chpc by running the command `ssh <uid>@notchpeak2.chpc.utah.edu`.
 Then run `git clone https://github.com/DJJ2244/CS4964-Senitment-Analysis.git`
-We have already created a data folder, in any way that you want, either through the CHPC OnDemand website or through terminal, move the three data files into the 'data' folder inside this repository. We did: `scp <localpath> <your uid>@notchpeak2.chpc.utah.edu<absolute path to repo root>/data`
+We have already created a data folder in the repository to house the data so in any way that you want, either through the CHPC OnDemand website or through terminal, move the three data files into the 'data' folder inside this repository. We did: `scp <localpath> <your uid>@notchpeak2.chpc.utah.edu<absolute path to repo root>/data`
 
 As an example here is what ours looked like for one of our uid's. `scp ~/Downloads/part-01.json u1234567@notchpeak2.chpc.utah.edu/~CS4964-Senitment-Analysis/data`.
 
