@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers
+datasets
+matplotlib
+seaborn
+scikit-learn
+pandas
+numpy
+tqdm
+pillow
+wandb
+tensorboard
+ipykernel
+papermill
