@@ -11,6 +11,7 @@
 #SBATCH --error=logs/slurm/%j.err
 
 module load python/3.13.5
+module load openjdk/17.0.1
 
 source .venv/bin/activate
 
