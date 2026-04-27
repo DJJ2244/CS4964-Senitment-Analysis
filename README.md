@@ -21,7 +21,14 @@ We have already created a data folder, in any way that you want, either through 
 
 As an example here is what ours looked like for one of our uid's. `scp ~/Downloads/part-01.json u1234567@notchpeak2.chpc.utah.edu/~CS4964-Senitment-Analysis/data`.
 
-
+## End result
+there should be three files in the data directory like the following:
+```
+data/
+    yelp_academic_dataset_review.json
+    part-01.json
+    preprocessed_kindle_review .csv
+```
 
 # Setting up environment
 To set up venv:
@@ -39,7 +46,9 @@ pip install -r requirements.txt
 Note: if you are going to queue the jobs, leave the venv with `deactivate`. Otherwise stay in the venv.
 
 # Queuing jobs
-From project root:
+**IMPORTANT!**: queue from repo root (pwd should end with the repo name). Ingoring this causes the kernel's path to be different than the relative path assumptions we made and the files will not be found
+
+### Jobs:
 ```bash
 sbatch data_processing_job.sh
 ```
