@@ -31,6 +31,7 @@ data/
 ```
 
 # Setting up environment
+All while in repo root
 To set up venv:
 ```bash
 python -m venv .venv
