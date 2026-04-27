@@ -4,7 +4,7 @@ python -m venv .venv
 ```
 to activate:
 ```
-source .venv/bin/source
+source .venv/bin/activate
 ```
 to install requirements
 ```
