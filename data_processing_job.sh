@@ -14,4 +14,4 @@ module load python/3.13.5
 
 python -m pip install --user --quiet papermill
 
-python -m papermill Final_Project_Data_Processing.ipynb outputs/output_${SLURM_JOB_ID}.ipynb
+python -m papermill data_processing.ipynb outputs/output_${SLURM_JOB_ID}.ipynb
