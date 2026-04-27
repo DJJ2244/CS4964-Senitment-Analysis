@@ -1,4 +1,10 @@
-To set up:
+# General Information
+We ran all of this using U of U's CHPC. The heavy lifting was done using the .sh slurm jobs.
+
+# Setting up source data
+
+# Setting up environment
+To set up venv:
 ```
 python -m venv .venv
 ```
