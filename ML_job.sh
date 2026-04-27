@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=fine_tune_distilbert
-#SBATCH --time=02:00:00
+#SBATCH --time=08:00:00
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=16
 #SBATCH --ntasks=1
