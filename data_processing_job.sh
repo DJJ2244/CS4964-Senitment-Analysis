@@ -4,9 +4,9 @@
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=4
 #SBATCH --ntasks=1
-#SBATCH --qos=coe-class-grn
-#SBATCH --partition=coe-class-grn
-#SBATCH --account=cs4964
+#SBATCH --qos=notchpeak-guest
+#SBATCH --partition=notchpeak-guest
+#SBATCH --account=owner-guest
 #SBATCH --output=logs/slurm/%j.out
 #SBATCH --error=logs/slurm/%j.err
 
