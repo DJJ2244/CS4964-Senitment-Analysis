@@ -16,3 +16,12 @@ to install requirements
 ```
 pip install -r requirements.txt
 ```
+Note: if you are going to queue the jobs, leave the venv with `deactivate`. Otherwise stay in the venv.
+
+# Queuing jobs
+From project root:
+```sbatch data_processing_job.sh```
+once succeeded run
+```finetine_model.sh```
+
+the resulting .ipynb will be in the output directory ready to be viewed.
