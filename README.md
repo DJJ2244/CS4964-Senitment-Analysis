@@ -5,23 +5,27 @@ We ran all of this using U of U's CHPC. The heavy lifting was done using the .sh
 
 # Setting up environment
 To set up venv:
-```
+```bash
 python -m venv .venv
 ```
 to activate:
-```
+```bash
 source .venv/bin/activate
 ```
 to install requirements
-```
+```bash
 pip install -r requirements.txt
 ```
 Note: if you are going to queue the jobs, leave the venv with `deactivate`. Otherwise stay in the venv.
 
 # Queuing jobs
 From project root:
-```sbatch data_processing_job.sh```
+```bash
+sbatch data_processing_job.sh
+```
 once succeeded run
-```finetine_model.sh```
+```bash
+finetine_model.sh
+```
 
 the resulting .ipynb will be in the output directory ready to be viewed.
