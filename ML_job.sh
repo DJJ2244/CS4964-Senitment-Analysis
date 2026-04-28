@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --job-name=fine_tune_distilbert
-#SBATCH --time=08:00:00
+#SBATCH --time=10:00:00
 #SBATCH --mem=64G
 #SBATCH --cpus-per-task=16
 #SBATCH --ntasks=1
-#SBATCH --qos=notchpeak-gpu
-#SBATCH --partition=notchpeak-gpu
-#SBATCH --account=notchpeak-gpu
-#SBATCH --gres=gpu:3090:2
+#SBATCH --qos=notchpeak-gpu-guest
+#SBATCH --partition=notchpeak-gpu-guest
+#SBATCH --account=owner-gpu-guest
+#SBATCH --gres=gpu:h100nvl:2
 #SBATCH --output=logs/slurm/%j.out
 #SBATCH --error=logs/slurm/%j.err
 
