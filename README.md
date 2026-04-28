@@ -6,7 +6,7 @@
 # Setting up source data
 The data for this project is too large for GitHub or even free tier Google Drive, as such we require you to download the files for the data as follows. Do not change the names of any files.
 
-This link contains the kindle book review data, download the file present at this kaggle link titled, "all_kindle_review .csv". Yes there is a space in the name, this is accounted for in the code. Don't change it.
+This link contains the kindle book review data, download the file present at this kaggle link. It will download a file named archive.zip, this opens up the archive file which contains "all_kindle_review .csv". Yes there is a space in the name, this is accounted for in the code. Don't change it.
 https://www.kaggle.com/datasets/meetnagadia/amazon-kindle-book-review-for-sentiment-analysis
 
 This link contains the Yelp business review data. Click the first "Download JSON" button. Once the zip file is downloaded, unzip it. We will use the file titled, "yelp_academic_dataset_review.json".
