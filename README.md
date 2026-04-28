@@ -2,6 +2,7 @@
 - We ran all of this using the U of U's CHPC server using SLURM jobs
 - You can run the commands in the job files manually instead or queue the jobs making sure that your account has access to the same resources which are hardcoded into the .sh slurm job files. 
     - You can use `mychpc batch` to figure out what is available to you.
+- Getting the source data and venv set up may take an extremely long time (1 hour +) if you have poor internet. Because of this, we have also included all our code as well as the outputs of our final notebook displaying our results to inspect.
 
 # Setting up source data
 The data for this project is too large for GitHub or even free tier Google Drive, as such we require you to download the files for the data as follows. Do not change the names of any files.
@@ -69,6 +70,9 @@ sbatch ML_job.sh
 - you can run `squeue -u $USER` to see if you job is running
 
 the resulting .ipynb will be in the output directory ready to be viewed.
+
+# Results
+You can the results of our model after our own training runs by viewing the `ml_output_12386059.ipynb` file. In here you will see our ML training and evaluation code. Our results and graphs are displayed throughout this output notebook. This is so that you don't have to go through the long training process yourselves.
 
 # Data Citation
 Yelp Dataset: https://business.yelp.com/data/resources/open-dataset/
