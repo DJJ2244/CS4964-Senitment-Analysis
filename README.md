@@ -2,7 +2,7 @@
 - We ran all of this using the U of U's CHPC server using SLURM jobs
 - You can run the commands in the job files manually instead or queue the jobs making sure that your account has access to the same resources which are hardcoded into the .sh slurm job files. 
     - You can use `mychpc batch` to figure out what is available to you.
-- Getting the source data and venv set up may take an extremely long time (1 hour +) if you have poor internet. Because of this, we have also included all our code as well as the outputs of our final notebook displaying our results to inspect.
+- Getting the source data and venv set up may take an extremely long time (1 hour +) if you have poor internet. Because of this, we have also included all our code as well as the outputs of our final notebook using the saved model from our training runs which displays our results to inspect.
 
 # Setting up source data
 The data for this project is too large for GitHub or even free tier Google Drive, as such we require you to download the files for the data as follows. Do not change the names of any files.
