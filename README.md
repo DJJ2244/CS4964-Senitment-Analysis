@@ -75,6 +75,17 @@ the resulting .ipynb will be in the output directory ready to be viewed.
 You can the results of our model after our own training runs by viewing the `ml_output_12386059.ipynb` file. In here you will see our ML training and evaluation code. Our results and graphs are displayed throughout this output notebook. This is so that you don't have to go through the long training process yourselves.
 
 # Running demo file with saved model
+- clone and open this repo
+- go to https://drive.google.com/drive/folders/1UsUiULJ7CucsmALNPnFnwPg7IB0ZpG5D?usp=sharing and download the 4 files:
+    - config.json
+    - model.safetensors
+    - tokenizer_config.json
+    - tokenizer.json
+- move those files to the repo directory of models/finetuned_distilbert
+- activate the .venv (view instructions at the top under **Setting up environment** for help with this)
+- ensure you have the necessary dependencies with `pip install torch transformers`
+    - depending where your running it you might need to also install `pip install ipykernel`
+- run cells sequentially and see their outputs
 
 # Data Citation
 Yelp Dataset: https://business.yelp.com/data/resources/open-dataset/
