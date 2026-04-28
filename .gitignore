@@ -1,5 +1,5 @@
-/log/s/**
-# /outputs/**
+/logs/**
+/outputs/**
 /data/**
 /parquets/**
 /models/**
