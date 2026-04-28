@@ -4,3 +4,4 @@
 /parquets/**
 /models/**
 .DS_Store
+.venv
