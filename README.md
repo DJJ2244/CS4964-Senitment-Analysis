@@ -6,7 +6,7 @@
 # Setting up source data
 The data for this project is too large for GitHub or even free tier Google Drive, as such we require you to download the files for the data as follows. Do not change the names of any files.
 
-This link contains the kindle book review data, download the file present at this kaggle link. It will download a file named archive.zip, this opens up the archive file which contains "all_kindle_review .csv". This is the file we wil use. Yes there is a space in the name, this is accounted for in the code. This should not be changed.
+This link contains the kindle book review data, download the file present at this kaggle link. It will download a file named archive.zip, this opens up the archive file which contains "all_kindle_review .csv". This is the file we wil use. **Yes there is a space in the name**, this is accounted for in the code. This should not be changed.
 https://www.kaggle.com/datasets/meetnagadia/amazon-kindle-book-review-for-sentiment-analysis
 
 This link contains the Yelp business review data. Click the first "Download JSON" button. Once the zip file is downloaded, unzip it. Inside of the resutling folder there is a yelp_dataset.tar file, expand this file. We will then use the file titled, "yelp_academic_dataset_review.json".
@@ -21,8 +21,7 @@ run `cd CS4964-Senitment-Analysis`
 Then run `pwd` and note this output for the next step
 For all three data files:
 - We have already created a data folder in the repository to house the data so in any way that you want, either through the CHPC OnDemand website or through terminal, move the three data files into the 'data' folder inside this repository. We ran the following command in the local terminal after logging out of the remote shell: `scp <localpath> <your uid>@notchpeak2.chpc.utah.edu:<absolute path to repo root>/data`
-
-As an example here is what ours looked like for one of our uid's. `scp ~/Desktop/School/CS4964/yelp_academic_dataset_review.json u1234567@notchpeak2.chpc.utah.edu:/uufs/chpc.utah.edu/common/home/u1234567/CS4964/CS4964-Senitment-Analysis/data`.
+- As an example here is what ours looked like for one of our uid's. `scp ~/Desktop/School/CS4964/yelp_academic_dataset_review.json u1234567@notchpeak2.chpc.utah.edu:/uufs/chpc.utah.edu/common/home/u1234567/CS4964/CS4964-Senitment-Analysis/data`.
 
 ## End result
 there should be three files in the data directory like the following:
