@@ -16,10 +16,13 @@ This link contains the IMDB movie review data. Click download. Unzip the archive
 https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset
 
 From here through terminal, ssh into chpc by running the command `ssh <uid>@notchpeak2.chpc.utah.edu`.
-Then run `git clone https://github.com/DJJ2244/CS4964-Senitment-Analysis.git`
-We have already created a data folder in the repository to house the data so in any way that you want, either through the CHPC OnDemand website or through terminal, move the three data files into the 'data' folder inside this repository. We did: `scp <localpath> <your uid>@notchpeak2.chpc.utah.edu<absolute path to repo root>/data`
+Then run `git clone https://github.com/DJJ2244/CS4964-Senitment-Analysis.git` in the desired directory
+run `cd CS4964-Senitment-Analysis`
+Then run `pwd` and note this output for the next step
+For all three data files:
+- We have already created a data folder in the repository to house the data so in any way that you want, either through the CHPC OnDemand website or through terminal, move the three data files into the 'data' folder inside this repository. We ran the following command in the local terminal after logging out of the remote shell: `scp <localpath> <your uid>@notchpeak2.chpc.utah.edu:<absolute path to repo root>/data`
 
-As an example here is what ours looked like for one of our uid's. `scp ~/Downloads/part-01.json u1234567@notchpeak2.chpc.utah.edu/~CS4964-Senitment-Analysis/data`.
+As an example here is what ours looked like for one of our uid's. `scp ~/Desktop/School/CS4964/yelp_academic_dataset_review.json u1234567@notchpeak2.chpc.utah.edu:/uufs/chpc.utah.edu/common/home/u1234567/CS4964/CS4964-Senitment-Analysis/data`.
 
 ## End result
 there should be three files in the data directory like the following:
