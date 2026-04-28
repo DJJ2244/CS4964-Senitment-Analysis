@@ -64,6 +64,7 @@ once succeeded run
 ```bash
 sbatch finetine_model.sh
 ```
+- you can run `squeue -u $USER` to see if you job is running
 
 the resulting .ipynb will be in the output directory ready to be viewed.
 
