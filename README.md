@@ -81,7 +81,7 @@ You can the results of our model after our own training runs by viewing the `ml_
     - model.safetensors
     - tokenizer_config.json
     - tokenizer.json
-- move those files to the repo directory of models/finetuned_distilbert
+- move those files to the repo directory of `models/finetuned_distilbert`
 - activate the .venv (view instructions at the top under **Setting up environment** for help with this)
 - ensure you have the necessary dependencies with `pip install torch transformers`
     - depending where your running it you might need to also install `pip install ipykernel`
