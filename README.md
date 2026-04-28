@@ -61,4 +61,10 @@ sbatch finetine_model.sh
 
 the resulting .ipynb will be in the output directory ready to be viewed.
 
-# Data Licensing/Citation
+# Data Citation
+Yelp Dataset: https://business.yelp.com/data/resources/open-dataset/
+IMDB Dataset: https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset
+Kindle Dataset: https://www.kaggle.com/datasets/meetnagadia/amazon-kindle-book-review-for-sentiment-analysis
+
+All of these sources had open use licenses.
+
