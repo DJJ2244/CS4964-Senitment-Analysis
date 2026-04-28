@@ -49,6 +49,8 @@ to install requirements
 ```bash
 pip install -r requirements.txt
 ```
+- This will take a while, ~10 minutes
+
 Note: if you are going to queue the jobs, leave the venv with `deactivate`. Otherwise stay in the venv.
 
 # Queuing jobs
