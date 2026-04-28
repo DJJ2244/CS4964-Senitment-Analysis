@@ -33,12 +33,14 @@ data/
 ```
 
 # Setting up environment
-All while in repo root
+All while in repo root (logged into chpc if working there)
 
 To set up venv:
 ```bash
 python -m venv .venv
 ```
+- You might have to run `module load python/3.13.5` if python is not recognized on chpc
+
 to activate:
 ```bash
 source .venv/bin/activate
