@@ -57,12 +57,14 @@ Note: if you are going to queue the jobs, leave the venv with `deactivate`. Othe
 **IMPORTANT!**: queue from repo root (pwd should end with the repo name). Ingoring this causes the kernel's path to be different than the relative path assumptions we made and the files will not be found
 
 ### Jobs:
+
 ```bash
 sbatch data_processing_job.sh
 ```
-once succeeded run
+above took about 10-15 minutes
+once the above succeeded run (which is much longer):
 ```bash
-sbatch finetine_model.sh
+sbatch ML_job.sh
 ```
 - you can run `squeue -u $USER` to see if you job is running
 
