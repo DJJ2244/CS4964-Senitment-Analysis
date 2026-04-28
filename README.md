@@ -74,6 +74,8 @@ the resulting .ipynb will be in the output directory ready to be viewed.
 # Results
 You can the results of our model after our own training runs by viewing the `ml_output_12386059.ipynb` file. In here you will see our ML training and evaluation code. Our results and graphs are displayed throughout this output notebook. This is so that you don't have to go through the long training process yourselves.
 
+# Running demo file with saved model
+
 # Data Citation
 Yelp Dataset: https://business.yelp.com/data/resources/open-dataset/
 IMDB Dataset: https://www.kaggle.com/datasets/ebiswas/imdb-review-dataset
