@@ -1,5 +1,6 @@
-/logs/**
+/log/s/**
 /outputs/**
 /data/**
 /parquets/**
+/models/**
 .DS_Store
