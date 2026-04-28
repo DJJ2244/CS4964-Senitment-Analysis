@@ -84,8 +84,8 @@ You can the results of our model after our own training runs by viewing the `ml_
 - move those files to the repo directory of `models/finetuned_distilbert`
 - activate the .venv (view instructions at the top under **Setting up environment** for help with this)
 - ensure you have the necessary dependencies with `pip install torch transformers`
+- open notebook and run cells sequentially and see their outputs
     - depending where your running it you might need to also install `pip install ipykernel`
-- run cells sequentially and see their outputs
 
 # Data Citation
 Yelp Dataset: https://business.yelp.com/data/resources/open-dataset/
